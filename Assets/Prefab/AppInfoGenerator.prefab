@@ -44,20 +44,114 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   premadeAppInfo:
-  - Title: Raid Shadow Legends
-    Description: 'Raid Shadow Legends, with over 100000000 players today!
+  - Title: Cool Stuff
+    Description: 'You want the freshest clothes, coolest shoes??? Then download this
+      app and start creating your style!
 
 '
-    Logo: {fileID: 0}
+    Logo: {fileID: 21300000, guid: cfde763c32c6ad8479a0a4a274aa8e6b, type: 3}
+    IsCoronaRelated: 0
+  - Title: Gator
+    Description: The best app for looking for Gators in Florida, either the Florida
+      Gators or real Gators, this is your app for Gators!
+    Logo: {fileID: 21300000, guid: 0b83f80936d81fb4797c7cc387117b0c, type: 3}
+    IsCoronaRelated: 0
+  - Title: Hazard_0
+    Description: Get now the newest Information on where new Outbreaks took place!
+      Get a full map of the whole earth with every single person with COVID-19!
+    Logo: {fileID: 21300000, guid: fb0461d7376aece4b9bd6eacf781b238, type: 3}
+    IsCoronaRelated: 1
+  - Title: Photo App
+    Description: '
+
+      This app will bring a whole new photography experience
+      on your phone! For just 40,99 you will get a whole three astonishing new filters!'
+    Logo: {fileID: 21300000, guid: 07e219f88bf1776438e25cb7c3398a95, type: 3}
+    IsCoronaRelated: 0
+  - Title: Umbrella
+    Description: We are are your new top company for personalised Umbrellas! Just
+      download the app and get your personal umbrella within a few days!
+    Logo: {fileID: 21300000, guid: adb82a479cd86764399c11a0ef6d3834, type: 3}
+    IsCoronaRelated: 0
+  - Title: Raid Shadow Legends
+    Description: "\rFight yourself trough a grafical completly new experience with
+      realistic Fantasy-RPG-World and more than 100 uniqe Champions."
+    Logo: {fileID: 21300000, guid: dbbe53ebfe529f645b9f574e1cdb099b, type: 3}
     IsCoronaRelated: 0
   - Title: Corona Beer
-    Description: "Dont you love Corona Beer\n ???\n"
-    Logo: {fileID: 0}
+    Description: "Born in Mexico and brought up on the beach, Corona is the perfect
+      compliment to life\u2019s simple pleasures. The golden colour, light refreshing
+      flavor and iconic hand painted bottle, topped off with a freshly squeezed lime.
+      When the living is easy, the beer is Corona."
+    Logo: {fileID: 21300000, guid: 56eddf73dcde95a489b0b1ed79405199, type: 3}
     IsCoronaRelated: 1
-  - Title: Corona Stat
-    Description: Corona App , gotta be informed
-    Logo: {fileID: 0}
+  - Title: Dental Clinic
+    Description: You want new teeth? or even brand new grillz? get them done here
+      at your dental clinic!
+    Logo: {fileID: 21300000, guid: 9bdd449e9c5eb904ebf9c2209d0b6469, type: 3}
+    IsCoronaRelated: 0
+  - Title: Hair Saloon
+    Description: "\rYou wnat fresh new Hair implants and the hottest extensions?
+      Go and get them at your nect Hair and Style Saloon, make your appointment right
+      in ths app!"
+    Logo: {fileID: 21300000, guid: 00ea6866025a78f49b8b95208f200808, type: 3}
+    IsCoronaRelated: 0
+  - Title: Trip Lovers
+    Description: You want to make an unforgetable trip with your laved ones? Book
+      it now in our brand new Trip Lovers App!
+    Logo: {fileID: 21300000, guid: 87b23373a2114da4a892efb619585bb0, type: 3}
+    IsCoronaRelated: 0
+  - Title: Webflix Plus
+    Description: "\rGet now the newest movies and series produced by Alex Williams
+      and Dennis Lorenz"
+    Logo: {fileID: 21300000, guid: 1a61cc0696499444abd1ed6cce2c4367, type: 3}
+    IsCoronaRelated: 0
+  - Title: Hexa Corp
+    Description: You need quick , fast, and good looking logos and dont want to copy
+      paste from google? You are at the right adress here! For just 500 per Minute
+      we will design a logo as you wish!
+    Logo: {fileID: 21300000, guid: e2d26b571aec2a04f805687ca0918923, type: 3}
+    IsCoronaRelated: 0
+  - Title: Spartan
+    Description: This is your app to support the Spartan Army! Donate money, watch
+      the Battlefield live stream or just send wishes to your favourite soldiers!
+    Logo: {fileID: 21300000, guid: 494ee10166d10714eb36fee82e547115, type: 3}
+    IsCoronaRelated: 0
+  - Title: Spiral Circle
+    Description: Make the cirlce jump and avoid getting by the line. How far can
+      you go?
+    Logo: {fileID: 21300000, guid: a31a1d6ce1dced944a43b1334757294a, type: 3}
+    IsCoronaRelated: 0
+  - Title: Clash Royale
+    Description: "\rEnter the Arena! The creators of Clash Royale present to the
+      all new real time multiplayer strategy game where you have to fight one vs
+      one for the victory!"
+    Logo: {fileID: 21300000, guid: 4b18b3a6ac447ab4e92e785cf2966c53, type: 3}
+    IsCoronaRelated: 0
+  - Title: Covid-19 Helper
+    Description: Covid-19 Helper, tracks the infected, fatalities and recovered from
+      the pandemic
+    Logo: {fileID: 21300000, guid: 8e04493137c1a224d8593ee46e49d334, type: 3}
     IsCoronaRelated: 1
   titlesList: {fileID: 4900000, guid: 562f0b163e6384444a2ff772da336be5, type: 3}
   descriptionsList: {fileID: 4900000, guid: 312a886accbf2bb4bacc78bb4844be00, type: 3}
-  logos: []
+  logos:
+  - {fileID: 21300000, guid: 4b18b3a6ac447ab4e92e785cf2966c53, type: 3}
+  - {fileID: 21300000, guid: cfde763c32c6ad8479a0a4a274aa8e6b, type: 3}
+  - {fileID: 21300000, guid: 56eddf73dcde95a489b0b1ed79405199, type: 3}
+  - {fileID: 21300000, guid: 9bdd449e9c5eb904ebf9c2209d0b6469, type: 3}
+  - {fileID: 21300000, guid: 0b83f80936d81fb4797c7cc387117b0c, type: 3}
+  - {fileID: 21300000, guid: 00ea6866025a78f49b8b95208f200808, type: 3}
+  - {fileID: 21300000, guid: fb0461d7376aece4b9bd6eacf781b238, type: 3}
+  - {fileID: 21300000, guid: eafbbd0da71520f409a3d7022c661e50, type: 3}
+  - {fileID: 21300000, guid: 5574ce1e1e0d0424a8e98434c3b680a8, type: 3}
+  - {fileID: 21300000, guid: b9ff8fd30850a5745a949398c685f187, type: 3}
+  - {fileID: 21300000, guid: e2d26b571aec2a04f805687ca0918923, type: 3}
+  - {fileID: 21300000, guid: 07e219f88bf1776438e25cb7c3398a95, type: 3}
+  - {fileID: 21300000, guid: dbbe53ebfe529f645b9f574e1cdb099b, type: 3}
+  - {fileID: 21300000, guid: 494ee10166d10714eb36fee82e547115, type: 3}
+  - {fileID: 21300000, guid: a31a1d6ce1dced944a43b1334757294a, type: 3}
+  - {fileID: 21300000, guid: 1a61cc0696499444abd1ed6cce2c4367, type: 3}
+  - {fileID: 21300000, guid: 87b23373a2114da4a892efb619585bb0, type: 3}
+  - {fileID: 21300000, guid: adb82a479cd86764399c11a0ef6d3834, type: 3}
+  premadeChance: 0.5

@@ -13,8 +13,9 @@ public class PagesManager : MonoBehaviour
 	[SerializeField]
 	private AppInfoGenerator _appInfoGenerator;
 
-    int score = 0;
+    [SerializeField] private int scoreOnCorrect = 100, scoreOnWrong = -500;
 
+    int score = 0;
 
 	private Pages _currentPage;
 
@@ -47,11 +48,12 @@ public class PagesManager : MonoBehaviour
 
         if(isCoronaRelated ^ declined)
         {
-            score -= 100;
+            score += scoreOnWrong;
+            score = Mathf.Max(0, score);
         }
         else
         {
-            score += 100;
+            score += scoreOnCorrect;
         }
 
         Destroy(_currentPage.gameObject);

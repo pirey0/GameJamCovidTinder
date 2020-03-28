@@ -8,6 +8,7 @@ public class AppInfoGenerator : MonoBehaviour
     [SerializeField] AppInfo[] premadeAppInfo;
     [SerializeField] TextAsset titlesList, descriptionsList;
     [SerializeField] Sprite[] logos;
+    [SerializeField] float premadeChance = 0.5f;
 
     string[] titles;
     string[] descriptions;
@@ -39,7 +40,7 @@ public class AppInfoGenerator : MonoBehaviour
 
     public AppInfo Generate()
     {
-        if( UnityEngine.Random.value < 0.5f && premadeAppInfo.Length > 0)
+        if( UnityEngine.Random.value < premadeChance && premadeAppInfo.Length > 0)
         {
             return premadeAppInfo[UnityEngine.Random.Range(0, premadeAppInfo.Length)];
         }
