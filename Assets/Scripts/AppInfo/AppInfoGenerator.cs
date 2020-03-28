@@ -66,13 +66,12 @@ public class AppInfoGenerator : MonoBehaviour
 
         description = description.Replace("%t", appInfo.Title);
 
+        appInfo.IsCoronaRelated = description.Contains("Corona");
 
         appInfo.Description = description;
 
         return appInfo;
     }
-
-   
 
 }
 
@@ -85,6 +84,8 @@ public struct AppInfo
     public string Description;
 
     public Sprite Logo;
+
+    public bool IsCoronaRelated;
 
     public override string ToString()
     {
