@@ -47,5 +47,7 @@ MonoBehaviour:
     type: 3}
   _canvas: {fileID: 0}
   _appInfoGenerator: {fileID: 0}
+  _timer: {fileID: 0}
   scoreOnCorrect: 100
   scoreOnWrong: -500
+  _endSceneName: EndScene

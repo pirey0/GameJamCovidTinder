@@ -27,17 +27,6 @@ public class AppInfoGenerator : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-        //Test
-        Debug.Log("Testing AppInfoGenerator: ");
-
-        for (int i = 0; i < 10; i++)
-        {
-            Debug.Log(Generate().ToString());
-        }
-    }
-
     public AppInfo Generate()
     {
         if( UnityEngine.Random.value < premadeChance && premadeAppInfo.Length > 0)
