@@ -66,7 +66,9 @@ public class AppInfoGenerator : MonoBehaviour
 
         description = description.Replace("%t", appInfo.Title);
 
-        appInfo.IsCoronaRelated = description.Contains("Corona");
+        appInfo.IsCoronaRelated = description.Contains("%c");
+
+        description = description.Replace("%c", "");
 
         appInfo.Description = description;
 

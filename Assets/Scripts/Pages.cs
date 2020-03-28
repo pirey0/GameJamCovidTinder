@@ -9,22 +9,27 @@ public class Pages : MonoBehaviour
 	[SerializeField] private Text _title;
 	[SerializeField] private Text _description;
 	[SerializeField] private Image _logo;
+    [SerializeField] private Text _score;
 
 	[SerializeField] private ScrollSnapBase _scrollSnapBase;
 
+    AppInfo info;
 
-	private void Start()
-	{
-
-	}
+    public AppInfo Info { get => info; }
 
 	public void SetPageInfo(AppInfo appinfo)
 	{
-		AppInfo name = appinfo;
-		_title.text = name.Title;
-		//_logo.sprite = name.Logo;
-		_description.text = name.Description;
+        info = appinfo;
+
+		_title.text = info.Title;
+		_logo.sprite = info.Logo;
+		_description.text = info.Description;
 	}
+
+    public void SetScore(int score)
+    {
+        _score.text = score.ToString();
+    }
 
 	public void SubscribeOnPageChange(UnityEngine.Events.UnityAction<int> action)
 	{

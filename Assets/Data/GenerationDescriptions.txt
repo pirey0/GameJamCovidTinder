@@ -1,0 +1,3 @@
+Hey don't you love %t? It will give you usefull info on the virus! %c
+This app will tell you all you need to know about COVID-19! %c
+Sends you daily cute cat pictures!

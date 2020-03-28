@@ -375,6 +375,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2946841438695338275, guid: 790f59b07081e824f8215554264da71e,
+        type: 3}
+      propertyPath: premadeAppInfo.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2946841438695338275, guid: 790f59b07081e824f8215554264da71e,
+        type: 3}
+      propertyPath: premadeAppInfo.Array.data[1].Title
+      value: Corona Beer
+      objectReference: {fileID: 0}
+    - target: {fileID: 2946841438695338275, guid: 790f59b07081e824f8215554264da71e,
+        type: 3}
+      propertyPath: premadeAppInfo.Array.data[1].Description
+      value: "Dont you love Corona Beer\n ???\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2946841438695338275, guid: 790f59b07081e824f8215554264da71e,
+        type: 3}
+      propertyPath: premadeAppInfo.Array.data[2].Title
+      value: Corona Stat
+      objectReference: {fileID: 0}
+    - target: {fileID: 2946841438695338275, guid: 790f59b07081e824f8215554264da71e,
+        type: 3}
+      propertyPath: premadeAppInfo.Array.data[2].Description
+      value: Corona App , gotta be informed
+      objectReference: {fileID: 0}
+    - target: {fileID: 2946841438695338275, guid: 790f59b07081e824f8215554264da71e,
+        type: 3}
+      propertyPath: premadeAppInfo.Array.data[1].IsCoronaRelated
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2946841438695338275, guid: 790f59b07081e824f8215554264da71e,
+        type: 3}
+      propertyPath: premadeAppInfo.Array.data[2].IsCoronaRelated
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2946841438695338275, guid: 790f59b07081e824f8215554264da71e,
+        type: 3}
+      propertyPath: premadeAppInfo.Array.data[0].Description
+      value: 'Raid Shadow Legends, with over 100000000 players today!
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2946841438695338275, guid: 790f59b07081e824f8215554264da71e,
+        type: 3}
+      propertyPath: premadeAppInfo.Array.data[0].Title
+      value: Raid Shadow Legends
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 790f59b07081e824f8215554264da71e, type: 3}
 --- !u!1 &1114954945

@@ -12,38 +12,49 @@ public class PagesManager : MonoBehaviour
 	private Canvas _canvas;
 	[SerializeField]
 	private AppInfoGenerator _appInfoGenerator;
-	
 
-	private GameObject _currentScroll;
+    int score = 0;
+
+
+	private Pages _currentPage;
 
 	private void Start()
 	{
 		InstantiatePage();
 	}
 
-	private void Update()
-	{
-		
-	}
-
 	private void InstantiatePage()
 	{
-		_currentScroll = Instantiate(_scrollPrefab, _canvas.transform);
-		Pages page = _currentScroll.GetComponent<Pages>();
-		page.SubscribeOnPageChange(OnCurrentPageChanged);
-		page.SetPageInfo(_appInfoGenerator.Generate());
+		var go = Instantiate(_scrollPrefab, _canvas.transform);
+        _currentPage = go.GetComponent<Pages>();
+        _currentPage.SubscribeOnPageChange(OnCurrentPageChanged);
+        _currentPage.SetPageInfo(_appInfoGenerator.Generate());
+        _currentPage.SetScore(score);
 	}
 	private void OnCurrentPageChanged(int page)
 	{
-		Destroy(_currentScroll);
-		InstantiatePage();
-		if(page == 0)
+        bool isCoronaRelated = _currentPage.Info.IsCoronaRelated;
+        bool declined = page == 0;
+
+		if(declined)
 		{
 			Debug.Log("Declined");
-		}
-		if(page == 2)
-		{
+        }
+        else
+        {
 			Debug.Log("Accepted");
 		}
-	}
+
+        if(isCoronaRelated ^ declined)
+        {
+            score -= 100;
+        }
+        else
+        {
+            score += 100;
+        }
+
+        Destroy(_currentPage.gameObject);
+        InstantiatePage();
+    }
 }
