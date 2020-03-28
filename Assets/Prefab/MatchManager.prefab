@@ -50,4 +50,4 @@ MonoBehaviour:
   _timer: {fileID: 0}
   scoreOnCorrect: 100
   scoreOnWrong: -500
-  _endSceneName: EndScene
+  _endSceneName: GameOver
