@@ -7,7 +7,7 @@ public class AppInfoGenerator : MonoBehaviour
 {
     [SerializeField] AppInfo[] premadeAppInfo;
     [SerializeField] TextAsset titlesList, descriptionsList;
-    [SerializeField] Texture2D[] logos;
+    [SerializeField] Sprite[] logos;
 
     string[] titles;
     string[] descriptions;
@@ -80,8 +80,11 @@ public class AppInfoGenerator : MonoBehaviour
 public struct AppInfo
 {
     public string Title;
+
+    [TextArea]
     public string Description;
-    public Texture2D Logo;
+
+    public Sprite Logo;
 
     public override string ToString()
     {
